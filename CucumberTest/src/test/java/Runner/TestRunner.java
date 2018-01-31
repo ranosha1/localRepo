@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 	@CucumberOptions(
 		features="src/test/resources/Features",
 		glue="stepDefinitions"
-	    ,dryRun=false
+	    ,dryRun=true
 		,format={"pretty","html:test-output"}
 		)
 
